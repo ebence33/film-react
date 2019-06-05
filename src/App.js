@@ -1,20 +1,17 @@
-import React from 'react';
+import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from '.composants/Header';
-import Item from '.composants/Item';
-import ListItem from '.composants/ListItem';
-import Popup from '.composants/Popup';
-import Videocurrent from '.composants/Videocurrent';
-import Videodetails from '.composants/Videodetails';
+import Header from './composants/Header';
 
 
-function App() {
-  return (
-    <div className="App">
 
-    </div>
+class App extends Component {
+	render() {
+	  return (
+	    <div className="App">
+	    <Header />
+	    </div>
   );
 }
-
+}
 export default App;
